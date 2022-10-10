@@ -15,7 +15,7 @@ export default function FormHeader({ title }: { title: string }) {
           style={{
             display: mdMediaQuery ? "none" : "inline-flex",
             border: "1px solid #EEEFF3",
-            width: "65%",
+            width: "60%",
           }}
         />
       </Box>

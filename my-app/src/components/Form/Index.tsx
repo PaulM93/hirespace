@@ -38,10 +38,17 @@ export default function Index() {
     estimatedSpend: false,
     venueLayout: false,
     venueStyle: false,
-    onlineElements: false,
   });
   const validate = () => {
-    const { errors, formIsValid } = handleValidation(formDetails);
+    const details = {
+      eventType: formDetails.eventType,
+      area: formDetails.area,
+      numberOfPeople: formDetails.numberOfPeople,
+      estimatedSpend: formDetails.estimatedSpend,
+      venueLayout: formDetails.venueLayout,
+      venueStyle: formDetails.venueStyle,
+    };
+    const { errors, formIsValid } = handleValidation(details);
     setErrors(errors);
     return formIsValid;
   };
