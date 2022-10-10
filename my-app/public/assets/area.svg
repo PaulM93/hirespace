@@ -1,0 +1,12 @@
+<svg width="11" height="24" viewBox="0 0 11 24" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M-306-24H17v88h-323z"/>
+        <path d="M13.004-15.5h-315.008c-.963 0-1.837.393-2.47 1.028a3.497 3.497 0 0 0-1.026 2.477v47.99a3.5 3.5 0 0 0 1.026 2.478 3.48 3.48 0 0 0 2.47 1.027H13.004c.963 0 1.837-.393 2.47-1.028a3.497 3.497 0 0 0 1.026-2.477v-47.99a3.5 3.5 0 0 0-1.026-2.478 3.48 3.48 0 0 0-2.47-1.027z" stroke="#BBBDBF"/>
+        <text opacity=".5" font-family="OpenSans, Open Sans" font-size="16" fill="#282A30" transform="translate(-306 -24)">
+                            <tspan x="16" y="41">Venue style</tspan>
+                        </text>
+        <g opacity=".505">
+            <path opacity=".87" d="M1 24h-24V0H1z"/>
+        </g>
+    </g>
+</svg>

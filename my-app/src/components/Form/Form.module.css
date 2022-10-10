@@ -1,0 +1,35 @@
+.formHeader {
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.submitButtonVis {
+    position: relative;
+    cursor: pointer;
+    padding: 13px 25px 13px 25px;
+    background: #F7F9FC;
+    border: 1px solid #F7F9FC;
+    color: #282B2F;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 700;
+    box-shadow:
+      rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px,
+}
+
+.submitButtonHidden {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    padding: 13px 25px 13px 25px;
+    background: #F7F9FC;
+    border: 1px solid #4BA440;
+    color: #4BA440;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px,
+}
