@@ -148,7 +148,13 @@ export default function EventDetails({
         />
       </GridItem>
       <GridItem xs={12} md={12}>
-        <Box sx={{ display: "flex", justifyContent: "flex-end" }}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "flex-end",
+            width: "100%",
+          }}
+        >
           <SubmitButton handleSubmit={handleSubmit} />
         </Box>
       </GridItem>

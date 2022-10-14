@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { useTheme } from "@mui/material/styles";
+import { useMediaQuery } from "@mui/material";
 import styles from "./Form.module.css";
 
 export default function SubmitButton({
@@ -7,14 +9,16 @@ export default function SubmitButton({
 }: {
   handleSubmit: () => void;
 }) {
+  const theme = useTheme();
   const [whileHover, setWhileHover] = useState(false);
+  const xsMediaQuery = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
     <motion.div
       onClick={() => handleSubmit()}
       onHoverStart={() => setWhileHover(true)}
       onHoverEnd={() => setWhileHover(false)}
-      style={{ position: "relative" }}
+      style={{ position: "relative", width: xsMediaQuery ? "100%" : "100px" }}
     >
       <motion.button
         initial={{ opacity: 1 }}

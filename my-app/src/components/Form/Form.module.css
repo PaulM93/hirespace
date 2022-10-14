@@ -9,6 +9,7 @@
 .submitButtonVis {
     position: relative;
     cursor: pointer;
+    width: 100%;
     padding: 13px 25px 13px 25px;
     background: #F7F9FC;
     border: 1px solid #F7F9FC;
@@ -24,6 +25,7 @@
     position: absolute;
     left: 0;
     cursor: pointer;
+    width: 100%;
     padding: 13px 25px 13px 25px;
     background: #F7F9FC;
     border: 1px solid #4BA440;
