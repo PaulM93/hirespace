@@ -8,13 +8,14 @@ import Form from "../components/Form/Index";
 export default function Index() {
   const theme = useTheme();
   const lgMediaQuery = useMediaQuery(theme.breakpoints.up("lg"));
-  const customMediaQuery = useMediaQuery("(min-width:2000px)");
+  const xlMediaQuery = useMediaQuery("(min-width:2000px)");
+  const xxlMediaQuery = useMediaQuery("(min-width:2500px)");
 
   return (
     <Grid
       container
       sx={{
-        width: !customMediaQuery ? "90%" : "70%",
+        width: !xlMediaQuery ? "90%" : xxlMediaQuery ? "60%" : "70%",
         paddingTop: "20px",
         minHeight: "100vh",
       }}
